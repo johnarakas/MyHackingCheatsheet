@@ -1,6 +1,6 @@
 # MyHackingCheatsheet
 while I am studing ethical hacking I will add usefull commands and scripts
-##shell_spawn##
+ Markup : ##shell_spawn##
  Markup : * python3 -c 'import pty; pty.spawn("/bin/bash")'
           * echo os.system('/bin/bash')
 
