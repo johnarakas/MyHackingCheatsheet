@@ -13,7 +13,7 @@ while I am studing ethical hacking I will add usefull commands and scripts
 
 <h4>php reverse shell  script </h4>
 <p>nc -lvnp 1234</p>
-<p><?php
+<?php
     // php-reverse-shell - A Reverse Shell implementation in PHP
     // Copyright (C) 2007 pentestmonkey@pentestmonkey.net
     //
@@ -201,4 +201,4 @@ while I am studing ethical hacking I will add usefull commands and scripts
         }
     }
     
-    ?> </p>
+    ?>
